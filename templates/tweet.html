@@ -1,0 +1,85 @@
+{% extends "layout.html" %}
+{% block content %}
+{% if name == "" %}
+<h3 class="semititle">あそぼう</h2>
+<div>今すぐ遊ぶ</div>
+<form action="/" class="loginform">
+<label style="width: 400px;">
+    なまえ
+    <input type="text" name="name" value=""　placeholder="名前" class="m-form-text" />
+</label>
+<label style="width: 400px;">
+    パスワード※初めての方はご希望のパスワード
+    <input type="text" name="pass" value=""　placeholder="パスワード" class="m-form-text" />
+</label>
+<input type="submit" value="あそぶ" class="m-form-text"></input>
+</form>
+{% elif rirekilen > 0 %}
+<p class="semititle">これまでのけいけん</p>
+<p class="sumkeiken">けいけん{{ sum }}分</p>
+{% if rank == 1 %}
+<p class="medal">1位　金メダル</p>
+{% elif rank == 2 %}
+<p class="medal">2位　銀メダル</p>
+{% elif rank == 3 %}
+<p class="medal">3位　銅メダル</p>
+{% elif rank > 0 %}
+<p>{{ rank }}位</p>
+{% endif %}
+{%- for i in range( rireki|length) %}
+<div class="media">
+    <figure class="media__left-watchlist">
+        {{ rireki[i]['ch'] }}<br/>{{ rireki[i]['length'] }}分けいけん
+    </figure>
+    <div class="media__body">
+        <div class="media__title">{{ rireki[i]['title'] }}</div>
+        <div class="media__excerpt">{{ rireki[i]['summary'] }}</div>
+        <div class="media__excerpt">{{ rireki[i]['start'] }}-{{rireki[i]['end']}}  　カテゴリ：
+            {%- for j in range( rireki[i]['category']|length) %}
+            <span> {{ rireki[i]['category'][j] }}</span>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% else %}
+<p class="semititle">まだなにもけいけんしていません</p>
+{% endif %}
+<style>
+.m-form-text {
+    height: 2.4em;
+    width: 100%;
+    padding: 0 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-bottom: 10px;
+}
+.medal {
+    font-size: 24px;
+    font-weight: 800;
+    color: darkorange;
+}
+.sumkeiken {
+    font-size: 20px;
+    font-weight: 700;
+}
+.media__left-watchlist {
+    width: 80px;
+    font-size: 12px;
+}
+
+.m-form-text:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+
+.loginform {
+    display: flex;
+    flex-direction: column;
+}
+</style>
+{% endblock %}

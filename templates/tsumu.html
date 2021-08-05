@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>けいけんを積む</h3>
+<h3>ほうそうちゅうのばんぐみ</h3>
+{%- for i in range( nowonair|length) %}
+<div class="media">
+    <figure class="media__left">
+        {{ nowonair[i]['ch'] }}
+    </figure>
+    <div class="media__body" onClick="window.location.href=`epg?pg={{ nowonair[i]['link'] }}&name={{ name }}`">
+        <div class="media__title">{{ nowonair[i]['title'] }}</div>
+        <div class="media__excerpt">{{ nowonair[i]['description'] }}</div>
+    </div>
+</div>
+{%- endfor %}
+{% endblock %}

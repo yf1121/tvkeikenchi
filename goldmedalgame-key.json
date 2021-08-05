@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "goldmedalgame-d009f",
+  "private_key_id": "ed38ccde99205a834c331a8d93dd93ebf374378d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEugIBADANBgkqhkiG9w0BAQEFAASCBKQwggSgAgEAAoIBAQDRor1UUgNH8qpk\nVE4LJzYmIq+y3c0AUAzJJbboGIr3TLvNxmF2XmB6c337eAVp6SNPqAwW706CdLkq\n15nOsHVaYmb17AKokUp+uL33+/S61GThAsrMBA5OC30XKb2tx766bXN3tzYbPhLb\nS8EVfnUctK5zz4S9YylzpYPYgJN3EyilzU7bM1AVpTSFR7jZMXzWF0UB+bqel07I\nAzKRqgwzU7S5krFBjtGpNgoXuB1u+WzEfhAyxLLvV4VMKwbSJZw6mjDpExCrVBV8\n6ufQ9D63eXWXH/UYl2m4+Bjm6K0KINdGWZW+5FQK7qPjCIW67n9OBiqUQ/p5BLcs\nwscU2tlrAgMBAAECggEAJL+rAduIoLWs4f6XWcQrbV76Ptg75hiiTSaT3DblMXnd\nmDJ1Blt//Sc+x/TfuhO48W9Lgz+7GwpcJWL7Huz2/Xuvgd+4DZW+od0/y/d6jL/L\n2Vf0dfQmD89aw9M44XxY9nRWX/+ZeAgXJSMv+1UaMYiI5ltT8SEvdIroxGyxrRc4\n637exwgATaVaBtXAsE7rrtMYAjWD+Yc+HCpiCsKzeBkbGUUa85qqLl+sw+9FlQ1i\nI/767r0iaLjGLQa8Ah1GE+1miGPx8S6eqF/Ghtp5mhJq9fQmHC086NIYez9MB5Tx\nCtRy3etZ1jXvvHrtcFl6WRWKD6wbO8F/pD9tu2by3QKBgQDwdqZALqAC4h55b6wD\nDN2xxeAqRhfatDw6q+sbHtiGU96I+AZP5Wqi94TEroBc1sa55oh8vP/wRwn9h1jz\n2flVvK4iNxoB2iBZzs1+rJzB6XO6/fSL65lQtgPhl/jcnaFeGmHlyneyXGPSDO+B\nMbrqTjtTuliGY5twzBqlOVTshQKBgQDfLjAb/ZGFyTtxfXmVPblN55CKpPD3qDyg\nI51lW70jzyfpLT/a4zgelSDwp5OMIfyXRaPdg2HR5CPiqo/ZCV6H3b15sUKj/SpV\nTOJDJXSzpH9OF+cOTDyn3hYc9kbsiWZbgb8pZqG83apAUWuRRSlnxi6H5bcF9p8z\n0kQPHwPJLwKBgEnr/7HNY41fXATy6otJgkGrVf1I7P5j1/wla7I7qk6pK8kpji8z\nlLOiqeMYzgc8U31EvIK0S23fONgCqrrUMI1F4rZMACe/maBiLdQaVlpaXSSH+4yk\nEc65FbpdULjpkHjwXVYaBvAC7QDezyYFVrO+9wgHSj2OE3P6mtpeJJhNAoGAfQlW\ngMgOeKLmP84piPh80e2zaEnCiy3hUWLCst+z1tUfqh7k0JBOh6vLOajZHECKUIH+\nrYMHEd28USh30QPTx1Du77fk+xVCW2note/NMzws6qavl64UqYPeZbmAwNK12vyV\nCe/rG3IhCUnUdx4FdZNtzEthv+CNDy51XPdmWpcCfwIidodHWvslCLpmdsttvvQC\nouu0qudYIWQZCzRbEwVe3vK67lz3EOcIX1b+QUt11CScyqYCIhO6sg1jOULKbRxS\nwHBVSlm5VBpY+neG0kHC9OtMRBdChr+kEVEOwyvevalidnm2BsrL9mvKUxGQt9qg\nXXfFHCWz0FAP+jQoiv4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-lajjk@goldmedalgame-d009f.iam.gserviceaccount.com",
+  "client_id": "115036553136802249985",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-lajjk%40goldmedalgame-d009f.iam.gserviceaccount.com"
+}
