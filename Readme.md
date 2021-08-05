@@ -42,9 +42,7 @@
 
 `git commit -m"message"`
 
-`heroku stack:set heroku-18 -a` 
-
-`selectbook-bot`
+`heroku stack:set heroku-18 -a tvkeikenchi`
 
 `git push heroku master`
 

@@ -44,7 +44,7 @@ def home():
             doc_ref = db.collection(u'users').document(name)
             doc = doc_ref.get()
             if doc.exists:
-                if doc.to_dict().password == password:
+                if doc.to_dict()['password'] == password:
                     return redirect('/?name=' + name + '&fp=true')
             else:
                 doc_ref.set({
