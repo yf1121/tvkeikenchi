@@ -2,26 +2,11 @@
 
 ## 概要
 
-リアルタイムツイートを取得します。
+テレビ番組の経験値を増やすアプリケーション
 
 ## URL
 
 [https://tvkeikenchi.herokuapp.com](https://tvkeikenchi.herokuapp.com)
-
-## ディレクトリ階層
-
-```
--- tv_reaction
-|- epgtools
-|- twittertools
-|- templates
-|- app.py メイン
-|- Procfile
-|- requirements.txt
-|- runtime.txt
-|- Readme.md
-|- .gitignore
-```
 
 # Tips
 
